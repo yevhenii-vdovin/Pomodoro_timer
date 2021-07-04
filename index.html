@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="pomodoro-timer">
+            <h3>Enter your</h3>
+            <h3><span>Pomodoro</span> time:</h3>
+            <div id="inputArea">
+            <input id="minutes" type="text">
+            <button id="btnstart">Start</button>
+        </div>
+
+        <h1 id="time">0:00</h1>
+        <div class="buttons-pomodoro">
+
+        
+        <button type="button" class="pause-pomodoro">pause</button>
+        <button type="button" class="start-pomodoro">start</button>
+        </div>
+        </div>
+        <div class="simple-timer">
+            <h3>Timer:</h3>
+            <form class="form_main">
+                <div class="spans">
+                    <h1><h1 id="minute">00</h1> . <h1 id="second">00</h1> . <h1 id="millisecond">00</h1></h1>
+                </div>
+
+               <button type="button" class="start">start</button>
+               <button type="button" class="pause">pause</button>
+               <button type="button" class="reset">reset</button>
+               </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
